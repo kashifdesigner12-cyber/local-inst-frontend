@@ -421,7 +421,7 @@ function Attendance() {
         Number(responseData.absentCount) || currentSummary.absent;
 
       setSuccessMsg(
-        `Attendance saved successfully. ${absentCount} student(s) marked absent.`,
+        `Attendance saved successfully.`,
       );
 
       // Reload exact backend records.
