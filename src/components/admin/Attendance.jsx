@@ -421,7 +421,7 @@ function Attendance() {
         Number(responseData.absentCount) || currentSummary.absent;
 
       setSuccessMsg(
-        `Attendance saved successfully. ${absentCount} student(s) marked absent. WhatsApp notification trigger has been sent to the backend.`,
+        `Attendance saved successfully. ${absentCount} student(s) marked absent.`,
       );
 
       // Reload exact backend records.
