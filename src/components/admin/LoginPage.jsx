@@ -222,7 +222,7 @@ function LoginPage({ onLoginSuccess }) {
       console.error("Backend connection error:", err);
 
       setError(
-        "Unable to connect to backend. Make sure the Node.js server is running on port 5000.",
+        "",
       );
     } finally {
       setLoading(false);
@@ -241,7 +241,7 @@ function LoginPage({ onLoginSuccess }) {
           </div>
 
           <h2 className="text-lg font-black text-slate-800 tracking-wide">
-            LocalPro1 Login
+            LocalPro1 Institute
           </h2>
 
           <p className="text-xs text-slate-500 mt-1">

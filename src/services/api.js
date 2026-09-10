@@ -95,7 +95,7 @@ export const apiCall = async (
       success: false,
       status: 0,
       message:
-        "Unable to connect to backend. Make sure the Node.js server is running on port 5000.",
+        "",
       error,
     };
   }
