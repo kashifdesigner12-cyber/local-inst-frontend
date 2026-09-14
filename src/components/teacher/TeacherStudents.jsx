@@ -595,7 +595,7 @@ function TeacherStudents() {
                                       "http"
                                     )
                                       ? student.photo
-                                      : `http://localhost:5000${student.photo}`
+                                      : `https://apilocalpro1.localpro1.net${student.photo}`
                                   }
                                   alt={student.name}
                                   className="w-full h-full object-cover"
